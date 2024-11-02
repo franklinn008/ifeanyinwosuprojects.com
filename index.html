@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Home - Ifeanyi Nwosu Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Ifeanyi</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Projects</a></li>
+								<li><a href="generic.html">Meet Ifeanyi</a></li>
+						</div>
+					</nav>
+
+				<!-- Banner -->
+						<section id="banner">
+							<div class="inner">
+								<div class="logo">
+									<img src="images/profilepix.jpg" alt="Profile Picture" style="width:200px;height:200px;border-radius:50%;">
+								</div>
+								<h2>Ifeanyi Nwosu Portfolio</h2>
+								<p>Data Engineering | Analysis | Visualisation + Business Intelligence</p>
+							</div>
+						</section>
+
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/payroll2.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">NYC Payroll Data ETL Project</h2>
+										<p>This project is designed to extract, transform, and load (ETL) NYC payroll data into a data warehouse for analysis. The data pipeline processes raw CSV files stored in Google Cloud Storage (GCS), performs necessary transformations, and loads the cleaned and structured data into a data warehouse. The processed data is structured into dimensional tables for easy querying and reporting, supporting key business questions about payroll expenditures across different agencies and titles.</p>
+										<a href="https://drive.google.com/file/d/1_1VVKHhJNIbo1nvs9Ywo2t2e97y75h7w/view?usp=sharing" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/e-commerce.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Ecommerce Data Modelling </h2>
+										<p>This project focuses on transforming raw e-commerce data into a structured format suitable for analysis and storage in a PostgreSQL database. Starting with data cleaning in Python, I removed null entries and converted data types as necessary. The dataset, which includes customer orders, products, payment methods, and shipping addresses, was then divided into separate, streamlined tables. After defining SQL schemas, I created tables for each data category and populated them with cleaned records. The final step involved loading the CSV files into the respective SQL tables, creating a relational database structure for efficient querying and analysis</p>
+										<a href="https://github.com/franklinn008/yanki_ecommerce_case_study/blob/main/yanki_etl.ipynb" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/logistics.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Logistics Company ETL</h2>
+										<p>This project focuses on the data ingestion, cleaning, and transformation of logistics transaction data to prepare it for storage in Azure Blob Storage. It starts by loading and examining a dataset containing customer, product, and transaction details, followed by data cleaning steps such as handling missing values and converting date formats. Key entities like customers, products, and transactions are separated into distinct tables for a streamlined schema. These tables are then saved locally as CSV files and uploaded as Parquet files to Azure Blob Storage using a Python script with Blob Storage API integration. This enables efficient and scalable data storage for future analysis.</p>
+										<a href="https://github.com/franklinn008/ziko_logistics/blob/master/Ziko_ETL_PIPELINE.ipynb" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">Other projects and dashboards</h2>
+									<p>As a Business Intelligence Engineer, I also create compelling visualizations to track performances and KPIs</p>
+									<section class="features">
+										<article>
+											<a href="#" class="image"><img src="images/portfolio1.png" alt="" /></a>
+											<h3 class="major">tenancy performance dashboard</h3>
+											<p>This dashboard provides a comprehensive analysis of a company’s  tenancy performance. It highlights key metrics including arrears, tenant distribution, rent frequency, and tenancy duration.
+											</p>
+											<a href="https://drive.google.com/file/d/1_icMPZAjg4WWA7jHnmS2GZjmwvzbbeLG/view?usp=sharing" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/fantasy football.jpg" alt="" /></a>
+											<h3 class="major">fantasy football ETL pipeline</h3>
+											<p>This project is an end-to-end data pipeline that extracts data from the Fantasy Premier League (FPL) API, transforms it into a structured format, and loads it into Google Cloud Storage (GCS) and BigQuery for analysis. Initially, it fetches player, team, and fixture data from specified FPL API endpoints, storing the raw data as CSV files in a local directory. Afterward, it transforms the data to create cleaner datasets, which are then uploaded to GCS. Finally, the transformed data is loaded into BigQuery tables, facilitating easy querying and analysis of FPL data for further insights into player and team performance.</p>
+											<a href="https://github.com/franklinn008/Fantasy_Football_ETL_Pipeline/blob/main/transformation.py" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/banking2.jpg" alt="" /></a>
+											<h3 class="major">banking data ETL modeling </h3>
+											<p>The project involves creating a relational database for a banking system. It encompasses the design and implementation of a schema with various tables, including date dimensions, transactions, accounts, customers, and loans. Data is loaded from CSV files into these tables using Python scripts that handle connections and execute SQL commands. Each table is carefully populated while ensuring data integrity, especially with foreign key constraints in the fact table. The project provides a robust foundation for analyzing banking transactions and customer data, supporting future data analytics efforts.</p>
+											<a href="https://github.com/franklinn008/zulo_bank_postgresql_rdms_setup/blob/main/zulo_bank.ipynb" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/text mining.jpg" alt="" /></a>
+											<h3 class="major">sentiment analysis & text mining</h3>
+											<p>This project involved conducting text mining and sentiment analysis on a dataset of reviews from 30 hotels in the Kamala region of Thailand. By preprocessing the text data, we extracted meaningful insights and trained a Multinomial Naive Bayes model to classify hotel reviews. The model achieved a good accuracy, allowing for the identification of sentiment trends across various establishments. Additionally, I analyzed negative reviews to determine common complaints and visualize the results through histograms and word clouds. This analysis offers valuable feedback for businesses to improve their services based on customer sentiments.</p>
+											<a href="https://github.com/franklinn008/KAMALA-HOTEL-TEXT-MINING-AND-SENTIMENT-ANALYSIS/blob/main/SENT.ipynb" class="special">Learn more</a>
+										</article>
+									</section>
+									<ul class="actions">
+										<li><a href="https://github.com/franklinn008/" class="button">Browse All</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									England, United Kingdom<br />
+									 
+								</li>
+								<li class="icon solid fa-phone">(+44) 787-6582-032</li>
+								<li class="icon solid fa-envelope"><a href="mailto:franklinnwosu008@gmail.com">franklinnwosu008@gmail.com</a> <a href="mailto:dartechinnovations@gmail.com">dartechinnovations@gmail.com</a></li> 
+                                <li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/fifeanyi-nwosu" target="_blank">linkedin.com/in/fifeanyi-nwosu</a></li> 
+                                <li class="icon brands fa-facebook-f"><a href="https://www.facebook.com/Ugodinanwa" target="_blank">facebook.com/Ugodinanwa</a></li> 
+                                <li class="icon brands fa-instagram"><a href="https://www.instagram.com/ugodina_nwa" target="_blank">instagram.com/ugodina_nwa</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Ifeanyi Nwosu - All rights reserved.
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
